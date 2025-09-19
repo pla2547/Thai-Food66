@@ -1,0 +1,25 @@
+.container1 {
+    display: flex;               /* ใช้ Flexbox */
+    justify-content: space-between; /* เว้นระยะซ้าย-ขวา */
+    align-items: center;         /* จัดให้อยู่กึ่งกลางในแนวตั้ง */
+    max-width: 800px;
+    margin: 30px auto 0 auto;                /* จัดกึ่งกลางหน้าจอ */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.info {
+    flex: 1;                      /* ขยายเต็มพื้นที่ที่เหลือ */
+    text-align: left;             /* ข้อความชิดซ้าย */
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+.photo img {
+    width: 250px;
+    height: auto;
+    border-radius: 15px;
+    margin-left: 40px;            /* เว้นช่องว่างจากข้อความ */
+}
